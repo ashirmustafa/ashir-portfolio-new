@@ -9,7 +9,7 @@ const Team = () => {
       role: 'Pusi Ass Nigga',
       game: 'VALORANT',
       icon: Crown,
-      stats: { kd: '2.1', winRate: '94%', rank: 'RADIANT' },
+      stats: { kd: '2.1', winRate: '94%', rank: 'RANDIANT' },
       description: 'Strategic mastermind with unparalleled leadership skills'
     },
     {
