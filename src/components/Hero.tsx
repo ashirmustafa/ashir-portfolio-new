@@ -23,11 +23,11 @@ const Hero = () => {
         {/* Main Logo/Title */}
         <div className="mb-8">
           <h1 className="text-6xl md:text-8xl lg:text-9xl font-orbitron font-black text-cyber-white mb-4">
-            <span className="neon-text animate-neon-pulse">OMENTEX</span>
+            <span className=" animate-neon-pulse">OMENTEX</span>
           </h1>
           <div className="w-full h-1 bg-gradient-to-r from-transparent via-cyber-red to-transparent mb-6"></div>
           <p className="text-xl md:text-2xl font-rajdhani font-light text-cyber-white/80 tracking-widest">
-            ELITE ESPORTS TEAM
+            ELITE ESPORTS TEAM 
           </p>
           <p className="text-lg md:text-xl font-rajdhani text-cyber-red/80 tracking-wider mt-2">
             DOMINATING THE DIGITAL BATTLEFIELD

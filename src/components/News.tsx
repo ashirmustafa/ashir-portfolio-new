@@ -60,7 +60,7 @@ const News = () => {
         {/* Section Title */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-orbitron font-bold text-cyber-white mb-4">
-            LATEST <span className="neon-text">NEWS</span>
+            LATEST <span className="">NEWS</span>
           </h2>
           <div className="w-32 h-1 bg-cyber-red mx-auto mb-6"></div>
           <p className="text-xl font-rajdhani text-cyber-white/80 max-w-3xl mx-auto leading-relaxed">

@@ -81,14 +81,6 @@
     border-radius: inherit;
   }
 
-  .neon-text {
-    color: #ff0040;
-    text-shadow: 
-      0 0 5px #ff0040,
-      0 0 10px #ff0040,
-      0 0 15px #ff0040,
-      0 0 20px #ff0040;
-  }
 
   .cyber-grid {
     background-image: 

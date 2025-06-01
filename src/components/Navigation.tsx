@@ -47,7 +47,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <h1 className="text-2xl font-orbitron font-bold neon-text animate-neon-pulse">
+            <h1 className="text-2xl font-orbitron font-bold animate-neon-pulse">
               OMENTEX
             </h1>
           </div>

@@ -5,39 +5,39 @@ import { Crown, Gamepad2, Shield, Sword } from 'lucide-react';
 const Team = () => {
   const teamMembers = [
     {
-      name: 'SHADOWBLADE',
-      role: 'TEAM CAPTAIN',
+      name: 'EL Faizonic',
+      role: 'Pusi Ass Nigga',
       game: 'VALORANT',
       icon: Crown,
       stats: { kd: '2.1', winRate: '94%', rank: 'RADIANT' },
       description: 'Strategic mastermind with unparalleled leadership skills'
     },
     {
-      name: 'CYBERSTORM',
-      role: 'RIFLER',
-      game: 'CS:GO',
-      icon: Sword,
+      name: 'Sexy',
+      role: 'Sab ka PYO',
+      game: 'VALORANT',
+      icon: Crown,
       stats: { kd: '1.8', winRate: '89%', rank: 'GLOBAL' },
       description: 'Aggressive entry fragger with exceptional aim'
     },
     {
-      name: 'NEONWOLF',
-      role: 'SUPPORT',
+      name: 'Qasim Bilal',
+      role: 'MANAGER',
       game: 'VALORANT',
       icon: Shield,
       stats: { kd: '1.4', winRate: '92%', rank: 'IMMORTAL' },
       description: 'Tactical genius specializing in utility usage'
     },
     {
-      name: 'QUANTUMFOX',
-      role: 'AWP SPECIALIST',
-      game: 'CS:GO',
+      name: 'Ahmed',
+      role: 'MANAGER',
+      game: 'VALORANT',
       icon: Gamepad2,
       stats: { kd: '2.3', winRate: '91%', rank: 'GLOBAL' },
       description: 'Precision sniper with lightning-fast reflexes'
     },
     {
-      name: 'VORTEXFIRE',
+      name: 's1lver',
       role: 'DUELIST',
       game: 'VALORANT',
       icon: Sword,
@@ -45,9 +45,9 @@ const Team = () => {
       description: 'Explosive duelist creating space for the team'
     },
     {
-      name: 'GHOSTWIRE',
-      role: 'IGL',
-      game: 'CS:GO',
+      name: 'Waji bhai',
+      role: 'Senior MQL Developer',
+      game: 'VALORANT',
       icon: Crown,
       stats: { kd: '1.6', winRate: '93%', rank: 'GLOBAL' },
       description: 'In-game leader with superior game sense'
@@ -60,7 +60,7 @@ const Team = () => {
         {/* Section Title */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-orbitron font-bold text-cyber-white mb-4">
-            OUR <span className="neon-text">ROSTER</span>
+            OUR <span className="">ROSTER</span>
           </h2>
           <div className="w-32 h-1 bg-cyber-red mx-auto mb-6"></div>
           <p className="text-xl font-rajdhani text-cyber-white/80 max-w-3xl mx-auto leading-relaxed">

@@ -23,7 +23,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           {/* Brand Section */}
           <div className="md:col-span-2">
-            <h3 className="text-3xl font-orbitron font-bold neon-text mb-4">OMENTEX</h3>
+            <h3 className="text-3xl font-orbitron font-bold  mb-4">OMENTEX</h3>
             <p className="font-rajdhani text-cyber-white/80 mb-6 leading-relaxed">
               Elite esports team dominating the competitive gaming scene. 
               We are the future of digital sports, setting new standards in professional gaming.
