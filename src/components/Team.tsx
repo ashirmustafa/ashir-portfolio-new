@@ -1,131 +1,124 @@
-
 import React from 'react';
-import { Crown, Gamepad2, Shield, Sword } from 'lucide-react';
 
 const Team = () => {
-  const teamMembers = [
+  const projects = [
     {
-      name: 'EL Faizonic',
-      role: 'Pusi Ass Nigga',
-      game: 'VALORANT',
-      icon: Crown,
-      stats: { kd: '2.1', winRate: '94%', rank: 'RANDIANT' },
-      description: 'Strategic mastermind with unparalleled leadership skills'
+      name: 'Task Manager',
+      role: 'Full Stack App',
+      image: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80',
+      stack: 'MongoDB, Express, React, Node.js',
+      description: 'A productivity app to manage daily tasks with authentication and real-time updates.',
+      link: 'https://github.com/yourusername/task-manager'
     },
     {
-      name: 'Sexy',
-      role: 'Sab ka PYO',
-      game: 'VALORANT',
-      icon: Crown,
-      stats: { kd: '1.8', winRate: '89%', rank: 'GLOBAL' },
-      description: 'Aggressive entry fragger with exceptional aim'
+      name: 'Recipe Finder',
+      role: 'Search App',
+      image: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80',
+      stack: 'React, Node.js, Edamam API',
+      description: 'Find recipes by ingredients and dietary preferences with a beautiful UI.',
+      link: 'https://github.com/yourusername/recipe-finder'
     },
     {
-      name: 'Qasim Bilal',
-      role: 'MANAGER',
-      game: 'VALORANT',
-      icon: Shield,
-      stats: { kd: '1.4', winRate: '92%', rank: 'IMMORTAL' },
-      description: 'Tactical genius specializing in utility usage'
+      name: 'Portfolio Website',
+      role: 'Personal Website',
+      image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80',
+      stack: 'React, Tailwind CSS',
+      description: 'A modern, responsive portfolio to showcase my projects and skills.',
+      link: 'https://github.com/yourusername/portfolio'
     },
     {
-      name: 'Ahmed',
-      role: 'MANAGER',
-      game: 'VALORANT',
-      icon: Gamepad2,
-      stats: { kd: '2.3', winRate: '91%', rank: 'GLOBAL' },
-      description: 'Precision sniper with lightning-fast reflexes'
+      name: 'Weather Dashboard',
+      role: 'Weather App',
+      image: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80',
+      stack: 'React, OpenWeatherMap API',
+      description: 'Get real-time weather updates and forecasts for any city worldwide.',
+      link: 'https://github.com/yourusername/weather-dashboard'
     },
     {
-      name: 's1lver',
-      role: 'DUELIST',
-      game: 'VALORANT',
-      icon: Sword,
-      stats: { kd: '2.0', winRate: '88%', rank: 'RADIANT' },
-      description: 'Explosive duelist creating space for the team'
+      name: 'Blog Platform',
+      role: 'Content Management',
+      image: 'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=400&q=80',
+      stack: 'MongoDB, Express, React, Node.js',
+      description: 'A full-featured blog platform with markdown support and user authentication.',
+      link: 'https://github.com/yourusername/blog-platform'
     },
     {
-      name: 'Waji bhai',
-      role: 'Senior MQL Developer',
-      game: 'VALORANT',
-      icon: Crown,
-      stats: { kd: '1.6', winRate: '93%', rank: 'GLOBAL' },
-      description: 'In-game leader with superior game sense'
-    }
+      name: 'Expense Tracker',
+      role: 'Finance App',
+      image: 'https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80',
+      stack: 'React, Node.js, MongoDB',
+      description: 'Track your expenses and visualize spending habits with charts.',
+      link: 'https://github.com/yourusername/expense-tracker'
+    },
+
   ];
 
   return (
-    <section id="team" className="py-20 px-4">
+    <section id="portfolio" className="py-20 px-4">
       <div className="container mx-auto">
         {/* Section Title */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-orbitron font-bold text-cyber-white mb-4">
-            OUR <span className="">ROSTER</span>
+            MY <span className="text-cyber-red">PORTFOLIO</span>
           </h2>
           <div className="w-32 h-1 bg-cyber-red mx-auto mb-6"></div>
           <p className="text-xl font-rajdhani text-cyber-white/80 max-w-3xl mx-auto leading-relaxed">
-            Meet the elite warriors who represent OMENTEX in the digital battlefield. 
-            Each member brings unique skills and unwavering dedication.
+            Explore some of my best MERN stack projects. Hover over each project to learn more.
           </p>
         </div>
 
-        {/* Team Grid */}
+        {/* Portfolio Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-          {teamMembers.map((member, index) => (
-            <div key={index} className="cyber-border p-6 hover-glow group">
-              <div className="text-center mb-6">
-                <div className="w-20 h-20 mx-auto mb-4 cyber-border rounded-full flex items-center justify-center group-hover:animate-glow">
-                  <member.icon className="w-10 h-10 text-cyber-red" />
-                </div>
-                <h3 className="text-2xl font-orbitron font-bold text-cyber-white group-hover:text-cyber-red transition-colors duration-300">
-                  {member.name}
-                </h3>
-                <p className="font-rajdhani text-cyber-red tracking-wider">{member.role}</p>
-                <p className="font-rajdhani text-cyber-white/60 text-sm">{member.game}</p>
+          {projects.map((project, index) => (
+            <div
+              key={index}
+              className="relative group rounded-lg overflow-hidden shadow-lg"
+            >
+              <img
+                src={project.image}
+                alt={project.name}
+                className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
+              />
+              {/* Overlay */}
+              <div className="absolute inset-0 bg-cyber-black/80 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center text-center p-6">
+                <h3 className="text-2xl font-orbitron font-bold text-cyber-red mb-2">{project.name}</h3>
+                <p className="font-rajdhani text-cyber-white/80 mb-2">{project.role}</p>
+                <p className="font-rajdhani text-cyber-white/60 text-sm mb-4">{project.stack}</p>
+                <p className="font-rajdhani text-cyber-white/80 text-sm mb-4">{project.description}</p>
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="cyber-border px-4 py-2 font-orbitron font-bold text-cyber-white hover:text-cyber-black hover:bg-cyber-red transition-all duration-300 hover-glow tracking-wider"
+                >
+                  VIEW PROJECT
+                </a>
               </div>
-
-              <div className="space-y-3 mb-4">
-                <div className="flex justify-between">
-                  <span className="font-rajdhani text-cyber-white/70">K/D RATIO</span>
-                  <span className="font-orbitron text-cyber-red font-bold">{member.stats.kd}</span>
-                </div>
-                <div className="flex justify-between">
-                  <span className="font-rajdhani text-cyber-white/70">WIN RATE</span>
-                  <span className="font-orbitron text-cyber-red font-bold">{member.stats.winRate}</span>
-                </div>
-                <div className="flex justify-between">
-                  <span className="font-rajdhani text-cyber-white/70">RANK</span>
-                  <span className="font-orbitron text-cyber-red font-bold">{member.stats.rank}</span>
-                </div>
-              </div>
-
-              <div className="w-full h-0.5 bg-cyber-red/30 mb-4"></div>
-              <p className="font-rajdhani text-cyber-white/80 text-sm leading-relaxed">
-                {member.description}
-              </p>
             </div>
           ))}
         </div>
 
-        {/* Team Philosophy */}
+        {/* Portfolio Philosophy */}
         <div className="cyber-border p-8 text-center">
           <h3 className="text-3xl font-orbitron font-bold text-cyber-white mb-4">
-            ONE TEAM, ONE <span className="text-cyber-red">DREAM</span>
+            BUILDING <span className="text-cyber-red">IMPACTFUL</span> SOLUTIONS
           </h3>
           <p className="text-lg font-rajdhani text-cyber-white/80 max-w-4xl mx-auto leading-relaxed">
-            Our success comes from relentless practice, strategic innovation, and unbreakable team synergy. 
-            We don't just play games - we redefine what's possible in competitive esports.
+            I focus on creating robust, scalable, and user-friendly applications using the MERN stack. Each project reflects my passion for clean code and innovative solutions.
           </p>
         </div>
 
-        {/* Recruitment CTA */}
+        {/* Contact CTA */}
         <div className="text-center mt-16">
           <h3 className="text-2xl font-orbitron font-bold text-cyber-white mb-4">
-            THINK YOU HAVE WHAT IT TAKES?
+            WANT TO WORK TOGETHER?
           </h3>
-          <button className="cyber-border px-8 py-4 font-orbitron font-bold text-cyber-white hover:text-cyber-black hover:bg-cyber-red transition-all duration-300 hover-glow tracking-wider">
-            JOIN TRYOUTS
-          </button>
+          <a
+            href="mailto:your.email@example.com"
+            className="cyber-border px-8 py-4 font-orbitron font-bold text-cyber-white hover:text-cyber-black hover:bg-cyber-red transition-all duration-300 hover-glow tracking-wider"
+          >
+            CONTACT ME
+          </a>
         </div>
       </div>
     </section>

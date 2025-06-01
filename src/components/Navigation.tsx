@@ -8,9 +8,9 @@ const Navigation = () => {
 
   const navItems = [
     { id: 'home', label: 'HOME' },
-    { id: 'partners', label: 'PARTNERS' },
-    { id: 'team', label: 'TEAM' },
-    { id: 'news', label: 'NEWS' },
+    { id: 'about me', label: 'ABOUT ME' },
+    { id: 'portfolio', label: 'PORTFOLIO' },
+    { id: 'blog', label: 'BLOG' },
   ];
 
   useEffect(() => {
@@ -48,7 +48,7 @@ const Navigation = () => {
           {/* Logo */}
           <div className="flex items-center">
             <h1 className="text-2xl font-orbitron font-bold animate-neon-pulse">
-              OMENTEX
+              ashir.
             </h1>
           </div>
 

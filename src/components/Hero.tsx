@@ -23,14 +23,14 @@ const Hero = () => {
         {/* Main Logo/Title */}
         <div className="mb-8">
           <h1 className="text-6xl md:text-8xl lg:text-9xl font-orbitron font-black text-cyber-white mb-4">
-            <span className=" animate-neon-pulse">OMENTEX</span>
+            <span className=" animate-neon-pulse">M ASHIR M</span>
           </h1>
           <div className="w-full h-1 bg-gradient-to-r from-transparent via-cyber-red to-transparent mb-6"></div>
           <p className="text-xl md:text-2xl font-rajdhani font-light text-cyber-white/80 tracking-widest">
-            ELITE ESPORTS TEAM 
+            MERN Developer & GEN AI Engineer
           </p>
           <p className="text-lg md:text-xl font-rajdhani text-cyber-red/80 tracking-wider mt-2">
-            DOMINATING THE DIGITAL BATTLEFIELD
+            4+ Years of Experience
           </p>
         </div>
 
@@ -39,7 +39,7 @@ const Hero = () => {
           onClick={scrollToHome}
           className="cyber-border px-8 py-4 font-orbitron font-bold text-cyber-white hover:text-cyber-black hover:bg-cyber-red transition-all duration-300 hover-glow tracking-wider"
         >
-          ENTER THE ARENA
+          See More
         </button>
       </div>
 

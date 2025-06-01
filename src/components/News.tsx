@@ -1,47 +1,46 @@
-
 import React from 'react';
-import { Calendar, ExternalLink, Trophy, Users } from 'lucide-react';
+import { Calendar, Star, User, Briefcase } from 'lucide-react';
 
 const News = () => {
   const newsItems = [
     {
-      category: 'TOURNAMENT',
-      title: 'OMENTEX DOMINATES WORLD CHAMPIONSHIP 2024',
+      category: 'CLIENT REVIEW',
+      title: 'Outstanding MERN Stack Project Delivery',
       date: '2024-05-28',
-      excerpt: 'Our team secured first place in the most prestigious esports tournament of the year, defeating top international teams.',
-      icon: Trophy,
+      excerpt: 'Ashir exceeded our expectations with a robust, scalable web app. Communication was clear and deadlines were always met.',
+      icon: Star,
       featured: true
     },
     {
-      category: 'ROSTER',
-      title: 'WELCOME NEW TEAM MEMBER: VORTEXFIRE',
+      category: 'TEAM FEEDBACK',
+      title: 'Great Team Player & Problem Solver',
       date: '2024-05-25',
-      excerpt: 'We are excited to announce the addition of VortexFire to our Valorant roster, bringing exceptional duelist skills.',
-      icon: Users,
+      excerpt: 'Ashir brought innovative solutions to our React/Node challenges and was always ready to help teammates.',
+      icon: User,
       featured: false
     },
     {
-      category: 'PARTNERSHIP',
-      title: 'STRATEGIC PARTNERSHIP WITH HYPERX',
+      category: 'CLIENT REVIEW',
+      title: 'Professional & Reliable Developer',
       date: '2024-05-22',
-      excerpt: 'OMENTEX signs exclusive partnership deal with HyperX for premium gaming equipment and technology support.',
-      icon: ExternalLink,
+      excerpt: 'Delivered a full-stack dashboard with MongoDB and Express. Highly recommend for any MERN stack project.',
+      icon: Briefcase,
       featured: false
     },
     {
-      category: 'TOURNAMENT',
-      title: 'SPRING SPLIT CHAMPIONS - UNDEFEATED SEASON',
+      category: 'PEER REVIEW',
+      title: 'Clean Code & Best Practices',
       date: '2024-05-20',
-      excerpt: 'Completing another perfect season, OMENTEX maintains their dominance in regional competition.',
-      icon: Trophy,
+      excerpt: 'Code reviews were a breeze. Ashir follows best practices and writes maintainable, readable code.',
+      icon: User,
       featured: false
     },
     {
-      category: 'COMMUNITY',
-      title: 'OMENTEX ACADEMY PROGRAM LAUNCHES',
+      category: 'CLIENT REVIEW',
+      title: 'Excellent Communication & Support',
       date: '2024-05-18',
-      excerpt: 'Introducing our youth development program to nurture the next generation of esports talent.',
-      icon: Users,
+      excerpt: 'Quick responses and thorough explanations. Post-launch support was top-notch.',
+      icon: Star,
       featured: false
     }
   ];
@@ -60,16 +59,15 @@ const News = () => {
         {/* Section Title */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-orbitron font-bold text-cyber-white mb-4">
-            LATEST <span className="">NEWS</span>
+            CLIENT <span className="">REVIEWS</span>
           </h2>
           <div className="w-32 h-1 bg-cyber-red mx-auto mb-6"></div>
           <p className="text-xl font-rajdhani text-cyber-white/80 max-w-3xl mx-auto leading-relaxed">
-            Stay updated with OMENTEX's latest victories, roster changes, 
-            partnerships, and community initiatives.
+            See what clients and colleagues say about Ashir's MERN stack development, teamwork, and professionalism.
           </p>
         </div>
 
-        {/* Featured News */}
+        {/* Featured Review */}
         {newsItems.filter(item => item.featured).map((item, index) => (
           <div key={index} className="cyber-border p-8 mb-12 hover-glow">
             <div className="grid md:grid-cols-3 gap-8 items-center">
@@ -100,7 +98,7 @@ const News = () => {
           </div>
         ))}
 
-        {/* News Grid */}
+        {/* Reviews Grid */}
         <div className="grid md:grid-cols-2 gap-8">
           {newsItems.filter(item => !item.featured).map((item, index) => (
             <div key={index} className="cyber-border p-6 hover-glow group cursor-pointer">
@@ -134,7 +132,7 @@ const News = () => {
             STAY IN THE <span className="text-cyber-red">LOOP</span>
           </h3>
           <p className="font-rajdhani text-cyber-white/80 mb-6">
-            Subscribe to our newsletter for exclusive updates and behind-the-scenes content
+            Subscribe for updates on Ashir's latest MERN stack projects and client success stories.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
             <input
