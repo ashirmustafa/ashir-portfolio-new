@@ -23,7 +23,7 @@ const Hero = () => {
         {/* Main Logo/Title */}
         <div className="mb-8">
           <h1 className="text-6xl md:text-8xl lg:text-9xl font-orbitron font-black text-cyber-white mb-4">
-            <span className=" animate-neon-pulse">M ASHIR M</span>
+            <span className=" animate-neon-pulse">Ashir M.</span>
           </h1>
           <div className="w-full h-1 bg-gradient-to-r from-transparent via-cyber-red to-transparent mb-6"></div>
           <p className="text-xl md:text-2xl font-rajdhani font-light text-cyber-white/80 tracking-widest">
