@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -18,6 +19,10 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'orbitron': ['Orbitron', 'monospace'],
+				'rajdhani': ['Rajdhani', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -61,6 +66,17 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Cyberpunk color scheme
+				cyber: {
+					black: '#0a0a0a',
+					'dark-gray': '#1a1a1a',
+					'light-gray': '#2a2a2a',
+					red: '#ff0040',
+					'red-dark': '#dc2626',
+					white: '#ffffff',
+					'neon-blue': '#00ffff',
+					'neon-green': '#39ff14',
 				}
 			},
 			borderRadius: {
@@ -84,11 +100,29 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'neon-pulse': {
+					'0%, 100%': {
+						textShadow: '0 0 5px #ff0040, 0 0 10px #ff0040, 0 0 15px #ff0040, 0 0 20px #ff0040'
+					},
+					'50%': {
+						textShadow: '0 0 2px #ff0040, 0 0 5px #ff0040, 0 0 8px #ff0040, 0 0 12px #ff0040'
+					}
+				},
+				'glow': {
+					'0%, 100%': {
+						boxShadow: '0 0 5px #ff0040, 0 0 10px #ff0040, 0 0 15px #ff0040'
+					},
+					'50%': {
+						boxShadow: '0 0 10px #ff0040, 0 0 20px #ff0040, 0 0 30px #ff0040'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'neon-pulse': 'neon-pulse 2s ease-in-out infinite',
+				'glow': 'glow 2s ease-in-out infinite alternate',
 			}
 		}
 	},
