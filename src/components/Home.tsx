@@ -18,7 +18,7 @@ const Home = () => {
   ];
 
   return (
-    <section id="home" className="py-20 px-4">
+    <section id="about-me" className="py-20 px-4">
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-orbitron font-bold text-cyber-white mb-4">
