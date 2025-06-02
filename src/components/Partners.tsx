@@ -97,7 +97,7 @@ const Partners = () => {
           <h3 className="text-2xl font-orbitron font-bold text-cyber-white mb-4">
             WANT TO WORK TOGETHER?
           </h3>
-          <button className="cyber-border px-8 py-4 font-orbitron font-bold text-cyber-white hover:text-cyber-black hover:bg-cyber-red transition-all duration-300 hover-glow tracking-wider">
+          <button className="cyber-border px-8 py-4 font-orbitron font-bold text-cyber-white hover:text-cyber-black hover:bg-cyber-red transition-all duration-300 hover-glow tracking-wider mt-4">
             CONTACT ME
           </button>
         </div>

@@ -109,7 +109,7 @@ const Team = () => {
         </div>
 
         {/* Contact CTA */}
-        <div className="text-center mt-16">
+        <div className="text-center mt-16 flex flex-col gap-4 items-center justify-center">
           <h3 className="text-2xl font-orbitron font-bold text-cyber-white mb-4">
             WANT TO WORK TOGETHER?
           </h3>
