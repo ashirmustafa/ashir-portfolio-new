@@ -8,9 +8,9 @@ const Navigation = () => {
 
   const navItems = [
     { id: 'home', label: 'HOME' },
-    { id: 'about me', label: 'ABOUT ME' },
+    { id: 'about-me', label: 'ABOUT ME' },
     { id: 'portfolio', label: 'PORTFOLIO' },
-    { id: 'blog', label: 'BLOG' },
+    { id: 'reviews', label: 'Reviews' },
   ];
 
   useEffect(() => {

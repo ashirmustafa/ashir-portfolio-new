@@ -13,7 +13,7 @@ const Partners = () => {
   ];
 
   return (
-    <section id="partners" className="py-20 px-4 bg-cyber-dark-gray/50">
+    <section id="portfolio" className="py-20 px-4 bg-cyber-dark-gray/50">
       <div className="container mx-auto">
         {/* Section Title */}
         <div className="text-center mb-16">
