@@ -1,54 +1,60 @@
 import React from 'react';
+import assessCandidates from '../../public/portfolioPictures/assessCandidates.png'
+import safra from '../../public/portfolioPictures/safra0.png'
+import soloon from '../../public/portfolioPictures/soloon.png'
+import homeCar from '../../public/portfolioPictures/homeCar0.png'
+import mediaFire from '../../public/portfolioPictures/mediaFire1.png'
+import crusadeTechnologies from '../../public/portfolioPictures/crusadeTechnologies.png'
 
 const Team = () => {
   const projects = [
     {
-      name: 'Task Manager',
+      name: 'AssessCandidates',
       role: 'Full Stack App',
-      image: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80',
+      image: assessCandidates,
       stack: 'MongoDB, Express, React, Node.js',
-      description: 'A productivity app to manage daily tasks with authentication and real-time updates.',
-      link: 'https://github.com/yourusername/task-manager'
+      description: 'A complete ATS, with handling more than million candidates, Including Assessments, Reports & Interviews with Anti-cheat system',
+      link: 'https://github.com/ashirmustafa/assessCandidates'
     },
     {
-      name: 'Recipe Finder',
-      role: 'Search App',
-      image: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80',
-      stack: 'React, Node.js, Edamam API',
-      description: 'Find recipes by ingredients and dietary preferences with a beautiful UI.',
-      link: 'https://github.com/yourusername/recipe-finder'
+      name: 'Safra-Tourism',
+      role: 'Full Stack App',
+      image: safra,
+      stack: 'React, Node.js, Open AI, Google places API, PKFARE, Edamam API',
+      description: 'A complete AI Based tourism app integrated with real-time hotels, flights data',
+      link: 'https://github.com/ashirmustafa/safra'
     },
     {
-      name: 'Portfolio Website',
-      role: 'Personal Website',
-      image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80',
+      name: 'Home Car',
+      role: 'Car repair app',
+      image: homeCar,
       stack: 'React, Tailwind CSS',
-      description: 'A modern, responsive portfolio to showcase my projects and skills.',
-      link: 'https://github.com/yourusername/portfolio'
+      description: 'A car repairing service that comes to your home. The app is used to get data of car repairment that needed.',
+      link: 'https://github.com/ashir/portfolio'
     },
     {
-      name: 'Weather Dashboard',
-      role: 'Weather App',
-      image: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80',
-      stack: 'React, OpenWeatherMap API',
-      description: 'Get real-time weather updates and forecasts for any city worldwide.',
-      link: 'https://github.com/yourusername/weather-dashboard'
+      name: 'Soloon',
+      role: 'Gambling App',
+      image: soloon,
+      stack: 'React JS, Tailwind CSS',
+      description: 'A Gambling app where people can earn money playing games',
+      link: 'https://github.com/ashirmustafa/soloon'
     },
     {
-      name: 'Blog Platform',
-      role: 'Content Management',
-      image: 'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=400&q=80',
+      name: 'MediaFire',
+      role: 'Review System',
+      image: mediaFire,
       stack: 'MongoDB, Express, React, Node.js',
-      description: 'A full-featured blog platform with markdown support and user authentication.',
-      link: 'https://github.com/yourusername/blog-platform'
+      description: 'A full-featured review system platform. Just like trustpilot, mediafire will provide trusted ratings based on submissions!',
+      link: 'https://github.com/ashirmustafa/mediafire'
     },
     {
-      name: 'Expense Tracker',
-      role: 'Finance App',
-      image: 'https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80',
+      name: 'Crusade Technologies',
+      role: 'Hiring App',
+      image: crusadeTechnologies,
       stack: 'React, Node.js, MongoDB',
-      description: 'Track your expenses and visualize spending habits with charts.',
-      link: 'https://github.com/yourusername/expense-tracker'
+      description: 'Find and Track your candidates based on location, job listings , etc',
+      link: 'https://github.com/ashirmustafa/crusade-technologies'
     },
 
   ];
