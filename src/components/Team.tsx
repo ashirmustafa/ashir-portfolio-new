@@ -46,7 +46,7 @@ const Team = () => {
       image: mediaFire,
       stack: 'MongoDB, Express, React, Node.js',
       description: 'A full-featured review system platform. Just like trustpilot, mediafire will provide trusted ratings based on submissions!',
-      link: 'https://github.com/ashirmustafa/mediafire'
+      link: 'https://github.com/ashirmustafa/media-fire'
     },
     {
       name: 'Crusade Technologies',
