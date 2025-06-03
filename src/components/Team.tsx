@@ -14,7 +14,7 @@ const Team = () => {
       image: assessCandidates,
       stack: 'MongoDB, Express, React, Node.js',
       description: 'A complete ATS, with handling more than million candidates, Including Assessments, Reports & Interviews with Anti-cheat system',
-      link: 'https://github.com/ashirmustafa/assessCandidates'
+      link: 'https://github.com/ashirmustafa/assess-candidates'
     },
     {
       name: 'Safra-Tourism',
