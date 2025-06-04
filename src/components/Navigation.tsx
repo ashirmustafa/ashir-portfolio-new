@@ -10,7 +10,7 @@ const Navigation = () => {
     { id: 'home', label: 'HOME' },
     { id: 'about-me', label: 'ABOUT ME' },
     { id: 'portfolio', label: 'PORTFOLIO' },
-    { id: 'reviews', label: 'Reviews' },
+    { id: 'reviews', label: 'REVIEWS' },
   ];
 
   useEffect(() => {
